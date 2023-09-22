@@ -49,7 +49,8 @@ requirements:
     - numpy
     - curl
     - tensorflow-gpu 2.0.*
-    - tensorflow-estimator 2.0.*
+    # Causes an error
+    #- tensorflow-estimator 2.0.*
     - protobuf
     - contextlib2
     - enum34
